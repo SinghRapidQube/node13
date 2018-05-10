@@ -4,13 +4,16 @@
   "description": "testing for Heroku",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node app.js"
   },
   "engines": {
     "node": "8.11.1"
