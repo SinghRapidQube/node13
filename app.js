@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const test_route = require('./routes/testroute');
 
-const port = 9595;
+const port = process.env.PORT || 9595;
 app.set('view engine','ejs');
 
 app.use('/',test_route);
